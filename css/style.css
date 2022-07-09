@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+body {
+    background-color:  #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+.calc {
+    background-color: #c4c4c4;
+}
+#calc {
+    width: 400px;
+    padding: 0.5em;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+#calc h3 {
+    font-size: .8em;
+    font-weight:  300;
+    color: #666;
+}
+#operations , #current-operation {
+    min-height: 1.6em;
+    text-align: right;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+}
+#previous-operation {
+    color: #777;
+}
+#current-operation {
+    font-size: 3em;
+    font-weight: 700;
+}
